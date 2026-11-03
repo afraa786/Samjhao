@@ -1,0 +1,282 @@
+[
+  {
+    "id": "cl-free-runs",
+    "text": "Field's up in the powerplay and Kabir is just picking up free runs!",
+    "textHinglish": "Powerplay mein field andar hai, Kabir toh free mein runs utha raha hai!",
+    "tags": ["powerplay", "boundary"],
+    "meaning": {
+      "beginner": {
+        "en": "During the powerplay, the opening overs, the fielding team must keep most of its fielders close to the batter. That leaves big empty spaces far away. So when Kabir hits the ball past the close fielders, nobody is out there to stop it. That is why the creator calls the runs 'free'.",
+        "hinglish": "Powerplay matlab match ke shuru ke overs, jab fielding team ko zyada tar fielders batter ke paas rakhne padte hain. Isliye door ka maidan khaali rehta hai. Jab Kabir ball ko paas wale fielders ke beech se nikaal deta hai, toh rokne wala koi nahi hota. Isliye creator bol raha hai ki runs 'free' mein mil rahe hain."
+      },
+      "moderate": {
+        "en": "With fielding restrictions on, most fielders are inside the circle. Kabir only has to beat the inner ring to find runs, so scoring looks easy.",
+        "hinglish": "Fielding restrictions ki wajah se zyada fielders circle ke andar hain. Kabir ko bas andar wale fielders ko beat karna hai, isliye runs aasaani se aa rahe hain."
+      },
+      "advanced": {
+        "en": "Only two fielders outside the ring, so any gap through the infield runs to the rope. Kabir is making it count before the field spreads.",
+        "hinglish": "Ring ke bahar sirf do fielders, toh infield ka har gap seedha boundary tak jaata hai. Field phailne se pehle Kabir iska poora fayda utha raha hai."
+      }
+    }
+  },
+  {
+    "id": "cl-chess",
+    "text": "And that's the powerplay done. Now the field spreads and the real chess begins!",
+    "textHinglish": "Aur powerplay khatam! Ab field phailegi aur asli chess shuru hoga!",
+    "tags": ["powerplay"],
+    "meaning": {
+      "beginner": {
+        "en": "The powerplay, the first six overs when fielders must stay close, has just ended. Now the captain can send more fielders far out to stop big hits. Scoring gets harder, and both captains start planning their moves carefully, like two players in a game of chess.",
+        "hinglish": "Powerplay, yaani shuru ke chhe overs jab fielders ko paas rehna padta hai, abhi khatam hua. Ab captain zyada fielders ko door bhej sakta hai taaki bade shots ruk sakein. Runs banana mushkil hoga, aur dono captains chess ki tarah soch soch ke chaal chalenge."
+      },
+      "moderate": {
+        "en": "Fielding restrictions are off. More fielders go back to the boundary, so batters must work singles and pick their moments to attack.",
+        "hinglish": "Fielding restrictions hat gayi. Zyada fielders boundary pe jayenge, toh batters ko singles lene padenge aur sahi waqt dekh ke attack karna hoga."
+      },
+      "advanced": {
+        "en": "Up to five fielders can now go back. Expect spin, a squeeze on singles and planned match-ups through the middle overs.",
+        "hinglish": "Ab paanch fielders tak bahar ja sakte hain. Middle overs mein spin, singles pe rok aur soch samajh ke match-ups dikhenge."
+      }
+    }
+  },
+  {
+    "id": "cl-gift-wrap",
+    "text": "Gift-wrapped it straight to long-on! Bhai, why?!",
+    "textHinglish": "Seedha long-on ke haath mein gift wrap karke de diya! Bhai, kyun?!",
+    "tags": ["wicket"],
+    "meaning": {
+      "beginner": {
+        "en": "Kabir hit the ball high in the air, right to a fielder standing at long-on, a spot far away in front of the batter. The fielder caught it, so Kabir is out. The creator is teasing that the catch was so easy, Kabir might as well have wrapped the ball up as a present.",
+        "hinglish": "Kabir ne ball hawa mein uchhaal di, seedha long-on pe khade fielder ke paas. Long-on matlab batter ke saamne, door ki ek jagah. Fielder ne catch pakad liya, toh Kabir out. Creator mazaak mein keh raha hai ki catch itna aasaan tha jaise gift pack karke diya ho."
+      },
+      "moderate": {
+        "en": "Kabir's big shot went straight to the fielder at long-on instead of into a gap. An easy catch, and a careless way to lose a set batter.",
+        "hinglish": "Kabir ka bada shot gap mein jaane ki jagah seedha long-on fielder ke paas gaya. Aasaan catch, aur set batter ka aise out hona galti thi."
+      },
+      "advanced": {
+        "en": "A mistimed lofted drive straight to long-on. Losing a set batter this early puts the middle order under pressure.",
+        "hinglish": "Lofted drive mistime hua aur seedha long-on pe. Set batter ka itni jaldi jaana middle order pe pressure daal deta hai."
+      }
+    }
+  },
+  {
+    "id": "cl-carrom",
+    "text": "Arre, that ball did a carrom! Flicked off the finger like a striker on the board!",
+    "textHinglish": "Arre, is ball ne toh carrom kar diya! Ungli se aise flick kiya jaise board pe striker!",
+    "tags": ["dot-ball", "economy"],
+    "meaning": {
+      "beginner": {
+        "en": "A carrom ball is a trick delivery from a spin bowler. Instead of turning the ball with the wrist, he flicks it out with his middle finger, just like you flick the striker in a game of carrom. It spins the opposite way to what the batter expects, so the batter missed it completely.",
+        "hinglish": "Carrom ball spin bowler ki ek trick wali ball hoti hai. Wo ball ko kalaai se ghumane ki jagah beech wali ungli se flick karta hai, bilkul waise jaise carrom mein striker maarte hain. Ball ulti taraf ghoomti hai jo batter ko expect nahi hota, isliye batter poori tarah miss kar gaya."
+      },
+      "moderate": {
+        "en": "A carrom ball is flicked out with the middle finger and spins the opposite way to a normal off-spinner. Rehan read it wrong and was beaten.",
+        "hinglish": "Carrom ball beech wali ungli se flick hoti hai aur normal off-spin se ulti taraf ghoomti hai. Rehan ise padh nahi paaya aur beat ho gaya."
+      },
+      "advanced": {
+        "en": "A variation that is hard to pick from the hand, which is why Naveen's economy stays low and batters cannot line him up.",
+        "hinglish": "Haath se padhna mushkil wala variation, isliye Naveen ki economy kam hai aur batters usko target nahi kar pa rahe."
+      }
+    }
+  },
+  {
+    "id": "cl-umpires-call",
+    "text": "That's umpire's call and it HURTS. Clipping leg stump like a whisper!",
+    "textHinglish": "Umpire's call hai aur ye dard deta hai! Leg stump ko bas halka sa chhoo rahi thi!",
+    "tags": ["umpires-call", "lbw", "review", "drs"],
+    "meaning": {
+      "beginner": {
+        "en": "Ishaan was given out LBW, which means the ball hit his leg when it was going on to hit the stumps. He asked for a TV replay to check. The replay showed the ball only just touching the edge of the stumps. When it is that close, the umpire's first decision stands. So he stays out, and the creator feels his pain.",
+        "hinglish": "Ishaan ko LBW out diya gaya, matlab ball uske pair pe lagi jabki wo seedha stumps pe ja rahi thi. Usne TV replay se check karwaya. Replay mein ball stumps ke kinaare ko bas chhoo rahi thi. Jab itna close ho, toh umpire ka pehla decision hi maana jaata hai. Isliye wo out hi raha, aur creator ko uska dukh ho raha hai."
+      },
+      "moderate": {
+        "en": "Ball-tracking showed the ball only just clipping leg stump. Too close to overturn, so the on-field out decision stays. Ishaan came very close to surviving.",
+        "hinglish": "Ball-tracking mein ball leg stump ko bas chhoo rahi thi. Itna close ho toh decision nahi badalta, isliye on-field out hi raha. Ishaan bachte bachte reh gaya."
+      },
+      "advanced": {
+        "en": "Less than half the ball in the stumps zone, so the on-field out stands. Ishaan goes, but the team keeps its review.",
+        "hinglish": "Ball ka aadhe se kam hissa stumps zone mein, toh on-field out hi raha. Ishaan gaya, par team ka review bach gaya."
+      }
+    }
+  },
+  {
+    "id": "cl-overstep",
+    "text": "Overstepped! Free hit loading... fielders, good luck now!",
+    "textHinglish": "Line ke aage pair! Free hit loading... fielders, ab bhagwan bharose!",
+    "tags": ["no-ball", "free-hit"],
+    "meaning": {
+      "beginner": {
+        "en": "The bowler's front foot landed past the white line he must stay behind. That makes it a 'no ball', and the batting team gets an extra run. Even better for them, the next ball is a 'free hit', where the batter cannot be out caught or bowled. The creator is joking that the fielders can only hope now.",
+        "hinglish": "Bowler ka aage wala pair us safed line ke aage pad gaya jiske peeche rehna zaroori hai. Isse 'no ball' kehte hain, aur batting team ko ek extra run milta hai. Aur bhi achhi baat, agli ball 'free hit' hogi, jismein batter catch ya bowled se out nahi ho sakta. Creator mazaak kar raha hai ki fielders ab bas dua kar sakte hain."
+      },
+      "moderate": {
+        "en": "A front-foot no ball gives a run and a free hit next ball. On a free hit the batter can only be run out, so expect a big swing.",
+        "hinglish": "Front-foot no ball se ek run milta hai aur agli ball free hit hoti hai. Free hit pe batter sirf run out ho sakta hai, toh bada shot pakka aayega."
+      },
+      "advanced": {
+        "en": "An overstep means a free hit, and the field cannot change unless the batters swap ends. A gift in a tight chase.",
+        "hinglish": "Overstep matlab free hit, aur batters end na badlein toh field bhi nahi badal sakti. Tight chase mein ye seedha gift hai."
+      }
+    }
+  },
+  {
+    "id": "cl-free-coupon",
+    "text": "Free hit and it's in the stands! That's how you use a free coupon!",
+    "textHinglish": "Free hit aur ball seedha stands mein! Free coupon aise use karte hain!",
+    "tags": ["free-hit", "boundary"],
+    "meaning": {
+      "beginner": {
+        "en": "On a free hit, the batter cannot be out caught or bowled, so there is almost no risk in swinging hard. Rehan did exactly that and hit a six, which means the ball flew over the boundary rope without bouncing. The creator compares the free hit to a free coupon, and says Rehan used it perfectly.",
+        "hinglish": "Free hit pe batter catch ya bowled se out nahi ho sakta, toh zor se bat ghumane mein koi khatra nahi. Rehan ne bilkul yahi kiya aur six maara, matlab ball bina tappa khaye boundary rope ke paar. Creator free hit ko free coupon bol raha hai, aur Rehan ne use ekdum sahi use kiya."
+      },
+      "moderate": {
+        "en": "With no risk of getting caught, Rehan swung freely and hit a six. A free hit is a chance to score big, and he took it.",
+        "hinglish": "Catch hone ka darr nahi tha, toh Rehan ne khul ke maara aur six aa gaya. Free hit bade runs ka mauka hota hai, aur usne wo mauka le liya."
+      },
+      "advanced": {
+        "en": "Maximum value from the no ball: an extra run, then a six. The momentum swings to the chasing side.",
+        "hinglish": "No ball ka poora fayda: ek extra run, phir six. Momentum ab chase karne wali team ke paas."
+      }
+    }
+  },
+  {
+    "id": "cl-mixup",
+    "text": "Two batters, zero communication. Classic mix-up!",
+    "textHinglish": "Do batters, zero baat-cheet. Classic mix-up!",
+    "tags": ["run-out", "wicket"],
+    "meaning": {
+      "beginner": {
+        "en": "To score a run, both batters run to the opposite end. If the fielders hit the stumps with the ball before a batter reaches the safe area, that batter is 'run out'. Here the two batters went for a second run without agreeing properly, and Tanay did not make it. The creator is saying they did not talk to each other.",
+        "hinglish": "Run lene ke liye dono batters doosre end tak bhaagte hain. Agar batter safe area tak pahunchne se pehle fielders ball se stumps gira dein, toh wo 'run out' hai. Yahan dono ne bina theek se baat kiye doosra run lene ki koshish ki, aur Tanay pahunch nahi paaya. Creator keh raha hai ki dono ne aapas mein baat hi nahi ki."
+      },
+      "moderate": {
+        "en": "The batters were not on the same page about the second run. A good throw caught Tanay short: a cheap wicket for the fielding side.",
+        "hinglish": "Doosre run ko lekar dono batters ki soch alag thi. Achhe throw ne Tanay ko crease se pehle pakad liya, fielding team ko sasta wicket mil gaya."
+      },
+      "advanced": {
+        "en": "A calling error on the second run to deep cover. A run out in a chase hurts twice: a wicket lost and a new batter needing time.",
+        "hinglish": "Deep cover ki taraf doosre run pe calling ki galti. Chase mein run out double nuksaan hai: wicket bhi gaya, aur naye batter ko settle hone mein time lagega."
+      }
+    }
+  },
+  {
+    "id": "cl-stuck",
+    "text": "He's stuck in the death overs and the asking rate is breathing down his neck!",
+    "textHinglish": "Death overs mein phas gaya hai bhai, aur asking rate sar pe khada hai!",
+    "tags": ["death-overs", "required-run-rate"],
+    "meaning": {
+      "beginner": {
+        "en": "The 'death overs' are the last few overs of the innings, when everything is decided. The 'asking rate' is how many runs the team needs from each over to win. Rehan is only managing singles, while the number needed keeps climbing. The creator means the pressure is right behind him, chasing him.",
+        "hinglish": "'Death overs' matlab innings ke aakhri kuch overs, jab sab kuch decide hota hai. 'Asking rate' matlab jeetne ke liye har over mein kitne runs chahiye. Rehan sirf singles le paa raha hai, jabki zaroori runs ka number badhta ja raha hai. Creator keh raha hai ki pressure uske peeche hi pada hai."
+      },
+      "moderate": {
+        "en": "The required run rate is now above the current run rate. Singles are not enough any more; Rehan needs to find boundaries soon.",
+        "hinglish": "Required run rate ab current run rate se upar hai. Sirf singles se kaam nahi chalega; Rehan ko jaldi boundaries dhoondhni hongi."
+      },
+      "advanced": {
+        "en": "The asking rate has overtaken the scoring rate just as the death overs begin. Every dot ball now adds real pressure.",
+        "hinglish": "Death overs shuru hote hi asking rate scoring rate se aage nikal gaya. Ab har dot ball pressure badhayegi."
+      }
+    }
+  },
+  {
+    "id": "cl-toe-crusher",
+    "text": "Toe-crusher! Right in the blockhole. Nothing you can do with that one.",
+    "textHinglish": "Toe-crusher! Seedha blockhole mein. Is ball pe kuch nahi kar sakte.",
+    "tags": ["yorker", "dot-ball"],
+    "meaning": {
+      "beginner": {
+        "en": "A yorker is a ball aimed to land right at the batter's feet, almost under the bat. It is very hard to hit, because there is no space to swing. The creator calls it a 'toe-crusher' because it lands at the toes, and the 'blockhole' is the spot near the feet where the batter rests the bat.",
+        "hinglish": "Yorker wo ball hai jo seedha batter ke pairon ke paas girti hai, lagbhag bat ke neeche. Ise maarna bahut mushkil hai kyunki bat ghumane ki jagah hi nahi milti. Creator ise 'toe-crusher' bol raha hai kyunki ye pair ki ungliyon pe aati hai, aur 'blockhole' pairon ke paas wo jagah hai jahan batter bat tikaata hai."
+      },
+      "moderate": {
+        "en": "A perfect yorker at the base of the stumps. Omkar could only jam his bat down to stop it, so no run was possible.",
+        "hinglish": "Stumps ke neeche perfect yorker. Omkar sirf bat neeche rakh ke ball rok paaya, run ka chance hi nahi tha."
+      },
+      "advanced": {
+        "en": "A pinpoint yorker, the best ball at the death. Too full to get under, so the big hit is off the table.",
+        "hinglish": "Ekdum sahi yorker, death overs ki sabse achhi ball. Iske neeche bat laana mushkil hai, toh bada shot ban hi nahi paata."
+      }
+    }
+  },
+  {
+    "id": "cl-budget",
+    "text": "Varadan is bowling like he's on a strict budget. Not giving anything away!",
+    "textHinglish": "Varadan aise bowling kar raha hai jaise budget pe chal raha ho. Kuch nahi de raha!",
+    "tags": ["economy", "death-overs"],
+    "meaning": {
+      "beginner": {
+        "en": "A bowler's 'economy' is how many runs he gives away in each over, on average. Lower is better for the bowler. Varadan is letting the batters score very little, even in the final overs when batters try hardest to hit. The creator jokes that he spends runs like someone on a tight budget.",
+        "hinglish": "Bowler ki 'economy' matlab wo ek over mein average kitne runs deta hai. Jitni kam, bowler ke liye utna achha. Varadan batters ko bahut kam runs de raha hai, wo bhi aakhri overs mein jab batters sabse zyada maarte hain. Creator mazaak kar raha hai ki wo runs aise kharch kar raha hai jaise tight budget ho."
+      },
+      "moderate": {
+        "en": "Varadan is conceding very few runs per over at the death, when runs usually flow. That tight economy is squeezing the chase.",
+        "hinglish": "Varadan death overs mein har over bahut kam runs de raha hai, jab aam taur pe runs zyada aate hain. Ye tight economy chase ko dabaa rahi hai."
+      },
+      "advanced": {
+        "en": "Elite death-over economy from Varadan. Dot balls this late can shift the chase more than a wicket does.",
+        "hinglish": "Varadan ki death economy kamaal ki hai. Itni der se aayi dot balls kabhi kabhi wicket se zyada farak daalti hain."
+      }
+    }
+  },
+  {
+    "id": "cl-holes-out",
+    "text": "Strike rate flying and he still holes out. Pressure does funny things!",
+    "textHinglish": "Strike rate udd raha tha, phir bhi catch de diya. Pressure mein ajeeb cheezein hoti hain!",
+    "tags": ["strike-rate", "wicket"],
+    "meaning": {
+      "beginner": {
+        "en": "A batter's 'strike rate' shows how fast he scores: runs per hundred balls. Omkar was scoring very fast. But he tried one more big hit and the ball went straight to a fielder, who caught it. 'Holes out' means getting caught near the boundary. The creator is saying pressure makes even good batters slip up.",
+        "hinglish": "Batter ka 'strike rate' batata hai wo kitni tezi se run bana raha hai: har sau balls pe kitne runs. Omkar bahut tez khel raha tha. Par usne ek aur bada shot try kiya aur ball seedha fielder ke haath mein gayi. 'Holes out' matlab boundary ke paas catch ho jaana. Creator keh raha hai ki pressure mein achhe batters bhi galti kar dete hain."
+      },
+      "moderate": {
+        "en": "Omkar was scoring quickly, but going for one more big shot got him caught in the deep. With few runs needed, a calmer shot might have done.",
+        "hinglish": "Omkar tez run bana raha tha, par ek aur bada shot maarne ke chakkar mein deep mein catch ho gaya. Kam runs chahiye the, shaant shot bhi kaam kar jaata."
+      },
+      "advanced": {
+        "en": "A high strike-rate cameo ends in the deep. A new batter for the final over is the bowler's best chance.",
+        "hinglish": "High strike rate wali chhoti innings deep mein khatam. Aakhri over mein naya batter: bowler ke liye sabse achha mauka."
+      }
+    }
+  },
+  {
+    "id": "cl-wide-gift",
+    "text": "A WIDE now?! In the last over?! That's a gift, bhai!",
+    "textHinglish": "Abhi WIDE?! Aakhri over mein?! Ye toh gift hai, bhai!",
+    "tags": ["wide", "death-overs"],
+    "meaning": {
+      "beginner": {
+        "en": "A wide is a ball bowled too far from the batter to hit. It gives the batting team one free run, and the bowler has to bowl that ball again. In the last over, when every run matters, giving away a free run and an extra ball is a big mistake. That is why the creator calls it a gift.",
+        "hinglish": "Wide wo ball hai jo batter se itni door ho ki maari hi na ja sake. Isse batting team ko ek free run milta hai, aur bowler ko wo ball dobara daalni padti hai. Aakhri over mein jab har run keemti hai, free run aur extra ball dena badi galti hai. Isliye creator ise gift bol raha hai."
+      },
+      "moderate": {
+        "en": "A wide in the final over gives a free run and an extra ball. In a close finish, that alone can decide the match.",
+        "hinglish": "Aakhri over mein wide matlab free run aur ek extra ball. Close finish mein yahi match decide kar sakta hai."
+      },
+      "advanced": {
+        "en": "A yorker missed down the leg side under pressure. A run and an extra delivery are costly when the margin is this thin.",
+        "hinglish": "Pressure mein yorker miss hua aur ball leg side gayi. Itne kam margin mein ek run aur extra ball mehnga padta hai."
+      }
+    }
+  },
+  {
+    "id": "cl-finish",
+    "text": "THEY'VE DONE IT! Ran that second like their lives depended on it. What a finish!",
+    "textHinglish": "JEET GAYE! Doosra run aise bhaage jaise sab kuch usi pe tika ho. Kya finish hai!",
+    "tags": ["run-rate", "required-run-rate"],
+    "meaning": {
+      "beginner": {
+        "en": "The Mariners needed a certain number of runs to win, called the target. On this ball, Yash and Rehan ran between the two ends twice, scoring two runs, and that was enough to reach the target. The match is over and the Mariners have won. The creator is celebrating how hard they ran for that last run.",
+        "hinglish": "Mariners ko jeetne ke liye ek fixed number of runs chahiye the, jise target kehte hain. Is ball pe Yash aur Rehan do baar bhaage, do runs bane, aur target poora ho gaya. Match khatam, Mariners jeet gaye. Creator khush hai ki aakhri run ke liye kitni jaan laga ke bhaage."
+      },
+      "moderate": {
+        "en": "Yash and Rehan ran hard for two, and that completes the chase. Sharp running between the wickets made the difference at the end.",
+        "hinglish": "Yash aur Rehan ne tez bhaag ke do runs liye aur chase poora. Aakhir mein wickets ke beech tez running ne farak daala."
+      },
+      "advanced": {
+        "en": "Chase sealed in the final over. Hard running turned a one into a two exactly when it mattered.",
+        "hinglish": "Aakhri over mein chase poora. Tez running se ek run do ban gaya, bilkul sahi waqt pe."
+      }
+    }
+  }
+]

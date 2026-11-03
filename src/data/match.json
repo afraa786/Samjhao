@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "battingTeam": "Mumbai Mariners",
+    "bowlingTeam": "Chennai Chargers",
+    "battingShort": "MAR",
+    "bowlingShort": "CHA",
+    "target": 168,
+    "totalOvers": 20
+  },
+  "events": [
+    {
+      "id": 1, "over": 5, "ball": 4,
+      "batter": "Kabir Deshmane", "bowler": "Vetri Anbalagan",
+      "runs": 4, "isWicket": false,
+      "gapBefore": { "balls": 33, "runs": 46, "wickets": 1 },
+      "tags": ["powerplay", "boundary"],
+      "text": "FOUR! Kabir Deshmane leans into a full ball and drives it past cover. The powerplay is nearly done, and the outfield is still wide open.",
+      "textHinglish": "FOUR! Kabir Deshmane ne full ball pe aage aake cover ke paas se drive maara. Powerplay khatam hone wala hai, aur outfield abhi bhi khula hai.",
+      "creatorLineId": "cl-free-runs"
+    },
+    {
+      "id": 2, "over": 5, "ball": 5,
+      "batter": "Kabir Deshmane", "bowler": "Vetri Anbalagan",
+      "runs": 0, "isWicket": false,
+      "tags": ["dot-ball", "powerplay"],
+      "text": "Dot ball. Vetri Anbalagan hits a good length and Kabir defends it straight back. No run.",
+      "textHinglish": "Dot ball. Vetri Anbalagan ne sahi length pe daala, Kabir ne seedha block kar diya. Koi run nahi."
+    },
+    {
+      "id": 3, "over": 5, "ball": 6,
+      "batter": "Ishaan Kotwal", "bowler": "Vetri Anbalagan",
+      "runs": 1, "isWicket": false,
+      "tags": ["powerplay", "run-rate"],
+      "text": "Ishaan Kotwal nudges a single off the last ball of the powerplay. The run rate looks healthy, but the field is about to spread out.",
+      "textHinglish": "Powerplay ki aakhri ball pe Ishaan Kotwal ne single le liya. Run rate theek chal raha hai, par ab field phail jayegi.",
+      "creatorLineId": "cl-chess"
+    },
+    {
+      "id": 4, "over": 8, "ball": 2,
+      "batter": "Kabir Deshmane", "bowler": "Joel Sequeira",
+      "runs": 0, "isWicket": true, "wicketType": "caught",
+      "gapBefore": { "balls": 13, "runs": 19, "wickets": 0 },
+      "tags": ["wicket"],
+      "text": "OUT! Kabir goes big against Joel Sequeira and is caught at long-on. A big wicket: the set batter is gone.",
+      "textHinglish": "OUT! Kabir ne Joel Sequeira ko bada shot maara aur long-on pe catch ho gaya. Bada wicket, jama hua batter chala gaya.",
+      "creatorLineId": "cl-gift-wrap"
+    },
+    {
+      "id": 5, "over": 9, "ball": 4,
+      "batter": "Ishaan Kotwal", "bowler": "Siddharth Varadan",
+      "runs": 1, "isWicket": false, "isExtra": "wide",
+      "gapBefore": { "balls": 7, "runs": 9, "wickets": 0 },
+      "tags": ["wide"],
+      "text": "Wide! Siddharth Varadan drifts it too far outside off. The chasing side gets a free run and the ball has to be bowled again.",
+      "textHinglish": "Wide! Siddharth Varadan ki ball off stump se bahut bahar chali gayi. Batting team ko free run mila aur ye ball dobara daalni padegi."
+    },
+    {
+      "id": 6, "over": 10, "ball": 3,
+      "batter": "Rehan Mistry", "bowler": "Naveen Kumaresh",
+      "runs": 0, "isWicket": false,
+      "gapBefore": { "balls": 5, "runs": 6, "wickets": 0 },
+      "tags": ["dot-ball", "economy"],
+      "text": "Naveen Kumaresh flicks one out of his fingers and it spins the wrong way past Rehan Mistry's bat. Another dot ball, and his economy keeps getting better.",
+      "textHinglish": "Naveen Kumaresh ne ungliyon se ball flick ki aur wo ulti taraf ghoom ke Rehan Mistry ke bat ke paas se nikal gayi. Ek aur dot ball, aur uski economy aur achhi ho rahi hai.",
+      "creatorLineId": "cl-carrom"
+    },
+    {
+      "id": 7, "over": 11, "ball": 1,
+      "batter": "Ishaan Kotwal", "bowler": "Vetri Anbalagan",
+      "runs": 0, "isWicket": true, "wicketType": "lbw",
+      "gapBefore": { "balls": 3, "runs": 6, "wickets": 0 },
+      "tags": ["lbw", "review", "drs", "umpires-call", "wicket"],
+      "text": "Given out LBW! Ishaan Kotwal asks for a review straight away. DRS ball-tracking shows the ball just clipping leg stump: umpire's call, so the decision stays. Ishaan has to walk.",
+      "textHinglish": "LBW out diya gaya! Ishaan Kotwal ne turant review liya. DRS ball-tracking mein ball leg stump ko bas chhoo rahi thi: umpire's call, toh pehla decision hi rahega. Ishaan ko jaana padega.",
+      "creatorLineId": "cl-umpires-call"
+    },
+    {
+      "id": 8, "over": 12, "ball": 5,
+      "batter": "Rehan Mistry", "bowler": "Joel Sequeira",
+      "runs": 1, "isWicket": false, "isExtra": "noball",
+      "gapBefore": { "balls": 9, "runs": 11, "wickets": 0 },
+      "tags": ["no-ball", "free-hit"],
+      "text": "No ball! Joel Sequeira oversteps the line. The batting side gets an extra run, and the next delivery is a free hit.",
+      "textHinglish": "No ball! Joel Sequeira ka pair line ke aage chala gaya. Batting team ko extra run mila, aur agli ball free hit hogi.",
+      "creatorLineId": "cl-overstep"
+    },
+    {
+      "id": 9, "over": 12, "ball": 5,
+      "batter": "Rehan Mistry", "bowler": "Joel Sequeira",
+      "runs": 6, "isWicket": false, "isFreeHit": true,
+      "tags": ["free-hit", "boundary"],
+      "text": "SIX on the free hit! Rehan Mistry swings with no fear of getting out and clears the boundary at deep midwicket.",
+      "textHinglish": "Free hit pe SIX! Rehan Mistry ko out hone ka koi darr nahi tha, poora bat ghumaya aur ball deep midwicket pe boundary ke paar.",
+      "creatorLineId": "cl-free-coupon"
+    },
+    {
+      "id": 10, "over": 14, "ball": 3,
+      "batter": "Tanay Sathe", "bowler": "Vetri Anbalagan",
+      "runs": 1, "isWicket": true, "wicketType": "runout",
+      "gapBefore": { "balls": 9, "runs": 10, "wickets": 0 },
+      "tags": ["run-out", "wicket"],
+      "text": "Run out! Tanay Sathe pushes to deep cover and they turn for a second. The throw beats him to the stumps by a whisker.",
+      "textHinglish": "Run out! Tanay Sathe ne deep cover ki taraf khela aur dono doosre run ke liye bhaage. Throw stumps tak pehle pahunch gaya, bas zara sa farak.",
+      "creatorLineId": "cl-mixup"
+    },
+    {
+      "id": 11, "over": 15, "ball": 1,
+      "batter": "Rehan Mistry", "bowler": "Siddharth Varadan",
+      "runs": 1, "isWicket": false,
+      "gapBefore": { "balls": 3, "runs": 4, "wickets": 0 },
+      "tags": ["death-overs", "required-run-rate"],
+      "text": "The death overs begin. Rehan Mistry takes a single, but the required run rate has now climbed above the speed they have scored at so far.",
+      "textHinglish": "Death overs shuru. Rehan Mistry ne single liya, par required run rate ab tak ki speed se upar chala gaya hai.",
+      "creatorLineId": "cl-stuck"
+    },
+    {
+      "id": 12, "over": 15, "ball": 4,
+      "batter": "Omkar Bhide", "bowler": "Siddharth Varadan",
+      "runs": 0, "isWicket": false,
+      "gapBefore": { "balls": 2, "runs": 3, "wickets": 0 },
+      "tags": ["yorker", "dot-ball", "death-overs"],
+      "text": "Yorker! Siddharth Varadan fires it right at Omkar Bhide's toes. He can only dig it out. Dot ball.",
+      "textHinglish": "Yorker! Siddharth Varadan ne seedha Omkar Bhide ke pairon pe daali. Wo bas ball rok paaya. Dot ball.",
+      "creatorLineId": "cl-toe-crusher"
+    },
+    {
+      "id": 13, "over": 16, "ball": 6,
+      "batter": "Omkar Bhide", "bowler": "Vetri Anbalagan",
+      "runs": 4, "isWicket": false,
+      "gapBefore": { "balls": 7, "runs": 9, "wickets": 0 },
+      "tags": ["boundary", "required-run-rate"],
+      "text": "FOUR! Omkar Bhide slaps Vetri Anbalagan over extra cover. Exactly the kind of shot that pulls the required run rate down.",
+      "textHinglish": "FOUR! Omkar Bhide ne Vetri Anbalagan ko extra cover ke upar se maara. Aisa hi shot required run rate ko neeche laata hai."
+    },
+    {
+      "id": 14, "over": 17, "ball": 6,
+      "batter": "Rehan Mistry", "bowler": "Siddharth Varadan",
+      "runs": 0, "isWicket": false,
+      "gapBefore": { "balls": 5, "runs": 6, "wickets": 0 },
+      "tags": ["economy", "dot-ball", "death-overs"],
+      "text": "Siddharth Varadan ends his over with another dot ball. His economy in the death overs is squeezing the chase.",
+      "textHinglish": "Siddharth Varadan ne over ek aur dot ball se khatam kiya. Death overs mein uski economy chase ko dabaa rahi hai.",
+      "creatorLineId": "cl-budget"
+    },
+    {
+      "id": 15, "over": 18, "ball": 3,
+      "batter": "Omkar Bhide", "bowler": "Joel Sequeira",
+      "runs": 6, "isWicket": false,
+      "gapBefore": { "balls": 2, "runs": 3, "wickets": 0 },
+      "tags": ["boundary", "death-overs"],
+      "text": "SIX! Omkar Bhide reads the slower ball early and launches it into the crowd at long-on. The death overs are alive.",
+      "textHinglish": "SIX! Omkar Bhide ne slower ball pehle hi pakad li aur long-on pe seedha crowd mein bhej di. Death overs mein ab maza aa raha hai."
+    },
+    {
+      "id": 16, "over": 18, "ball": 6,
+      "batter": "Omkar Bhide", "bowler": "Joel Sequeira",
+      "runs": 0, "isWicket": true, "wicketType": "caught",
+      "gapBefore": { "balls": 2, "runs": 3, "wickets": 0 },
+      "tags": ["wicket", "strike-rate"],
+      "text": "OUT! Omkar Bhide goes for another big hit and is caught at deep midwicket. His strike rate was sky-high, but the job is not done.",
+      "textHinglish": "OUT! Omkar Bhide ne ek aur bada shot try kiya aur deep midwicket pe catch ho gaya. Uska strike rate bahut upar tha, par kaam abhi baaki hai.",
+      "creatorLineId": "cl-holes-out"
+    },
+    {
+      "id": 17, "over": 19, "ball": 1,
+      "batter": "Rehan Mistry", "bowler": "Siddharth Varadan",
+      "runs": 0, "isWicket": false,
+      "tags": ["yorker", "dot-ball", "death-overs"],
+      "text": "Last over. Siddharth Varadan opens it with a yorker and Rehan Mistry cannot get it away. Dot ball.",
+      "textHinglish": "Aakhri over. Siddharth Varadan ne yorker se shuruaat ki, Rehan Mistry use maar nahi paaya. Dot ball."
+    },
+    {
+      "id": 18, "over": 19, "ball": 2,
+      "batter": "Rehan Mistry", "bowler": "Siddharth Varadan",
+      "runs": 4, "isWicket": false,
+      "tags": ["boundary"],
+      "text": "FOUR! Rehan Mistry backs away and carves it over point. The whole crowd is on its feet.",
+      "textHinglish": "FOUR! Rehan Mistry ne thoda hat ke point ke upar se maara. Poora stadium khada ho gaya."
+    },
+    {
+      "id": 19, "over": 19, "ball": 3,
+      "batter": "Rehan Mistry", "bowler": "Siddharth Varadan",
+      "runs": 1, "isWicket": false, "isExtra": "wide",
+      "tags": ["wide", "death-overs"],
+      "text": "Wide! Under pressure, Siddharth Varadan slips one down the leg side. A free run, and the ball must be bowled again.",
+      "textHinglish": "Wide! Pressure mein Siddharth Varadan ki ball leg side se bahar chali gayi. Free run mila, aur ball dobara daalni padegi.",
+      "creatorLineId": "cl-wide-gift"
+    },
+    {
+      "id": 20, "over": 19, "ball": 3,
+      "batter": "Rehan Mistry", "bowler": "Siddharth Varadan",
+      "runs": 1, "isWicket": false,
+      "tags": ["required-run-rate", "strike-rate"],
+      "text": "Rehan Mistry squeezes a single to long-off. The new batter, Yash Pardeshi, is on strike now.",
+      "textHinglish": "Rehan Mistry ne long-off ki taraf single nikaal liya. Ab naya batter Yash Pardeshi strike pe hai."
+    },
+    {
+      "id": 21, "over": 19, "ball": 4,
+      "batter": "Yash Pardeshi", "bowler": "Siddharth Varadan",
+      "runs": 0, "isWicket": false,
+      "tags": ["dot-ball", "required-run-rate"],
+      "text": "Dot ball! Yash Pardeshi swings and misses. Every eye in the stadium is on the next ball.",
+      "textHinglish": "Dot ball! Yash Pardeshi ne bat ghumaya aur miss ho gaya. Poore stadium ki nazar agli ball pe hai."
+    },
+    {
+      "id": 22, "over": 19, "ball": 5,
+      "batter": "Yash Pardeshi", "bowler": "Siddharth Varadan",
+      "runs": 2, "isWicket": false,
+      "tags": ["run-rate", "required-run-rate"],
+      "text": "Yash Pardeshi drills it to deep midwicket and they sprint back for the second run. The Mariners have done it!",
+      "textHinglish": "Yash Pardeshi ne deep midwicket ki taraf maara aur dono doosre run ke liye daud pade. Mariners jeet gaye!",
+      "creatorLineId": "cl-finish"
+    }
+  ]
+}

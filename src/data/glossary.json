@@ -1,0 +1,416 @@
+[
+  {
+    "id": "powerplay",
+    "label": { "en": "Powerplay", "hinglish": "Powerplay" },
+    "aliases": ["powerplay"],
+    "explanation": {
+      "beginner": {
+        "en": "A powerplay is the first six overs of the innings. An over is a set of six balls bowled by one bowler. During the powerplay, the fielding team may keep only two fielders far from the batter. It is like a shop's opening-hour offer: big hits are easier, so batters try to score quickly.",
+        "hinglish": "Powerplay matlab innings ke shuru ke 6 overs. Over matlab ek bowler ki lagaatar 6 balls. Powerplay mein fielding team sirf 2 fielders ko door rakh sakti hai, baaki sab paas rehte hain. Ye dukaan ke opening offer jaisa hai: bade shots aasaan hote hain, isliye batters tezi se runs banane ki koshish karte hain."
+      },
+      "moderate": {
+        "en": "The first six overs, when only two fielders may stand outside the inner circle. Gaps are easier to find, so batters attack early.",
+        "hinglish": "Shuru ke 6 overs, jab sirf 2 fielders inner circle ke bahar reh sakte hain. Gaps aasaani se milte hain, isliye batters shuru se attack karte hain."
+      },
+      "advanced": {
+        "en": "Overs one to six, with at most two fielders outside the ring. Teams aim to bank a fast start without losing early wickets.",
+        "hinglish": "Overs ek se chhe, ring ke bahar zyada se zyada do fielders. Plan simple hai: bina jaldi wicket khoye tez shuruaat."
+      }
+    },
+    "reminder": {
+      "en": "Powerplay: the first 6 overs, when the field must stay close.",
+      "hinglish": "Powerplay: shuru ke 6 overs, jab field paas rehti hai."
+    }
+  },
+  {
+    "id": "boundary",
+    "label": { "en": "Boundary", "hinglish": "Boundary" },
+    "aliases": ["boundary", "four", "six"],
+    "explanation": {
+      "beginner": {
+        "en": "The boundary is the rope around the edge of the field. If the batter hits the ball and it rolls or bounces over the rope, the team gets four runs at once. If it flies over without touching the ground, that is six runs. Think of it as a goal in football: the big moment everyone cheers.",
+        "hinglish": "Boundary maidan ke kinaare lagi rassi hai. Agar batter ki maari hui ball tappa kha ke rassi ke paar jaaye, toh ek saath 4 runs. Agar bina zameen chhue hawa mein hi paar ho jaaye, toh 6 runs. Ise football ke goal jaisa samjho: wo bada moment jispe sab khushi se chillate hain."
+      },
+      "moderate": {
+        "en": "The rope at the edge of the field. Reaching it along the ground scores four; clearing it in the air scores six. Boundaries are the fastest way to score.",
+        "hinglish": "Maidan ke kinaare ki rassi. Zameen se pahunche toh 4, hawa mein paar kare toh 6. Runs banane ka sabse tez tareeka yahi hai."
+      },
+      "advanced": {
+        "en": "Four along the ground, six on the full. Late in a chase, how often you find the rope matters more than rotating strike.",
+        "hinglish": "Zameen se 4, hawa se 6. Chase ke end mein boundaries kitni baar aati hain, ye singles se zyada maayne rakhta hai."
+      }
+    },
+    "reminder": {
+      "en": "Boundary: reach the rope for 4, clear it in the air for 6.",
+      "hinglish": "Boundary: rassi tak pahunche toh 4, hawa mein paar toh 6."
+    }
+  },
+  {
+    "id": "dot-ball",
+    "label": { "en": "Dot ball", "hinglish": "Dot ball" },
+    "aliases": ["dot ball"],
+    "explanation": {
+      "beginner": {
+        "en": "A dot ball is a ball where the batting team scores no runs at all. It gets its name from the scorebook, where it is marked with a small dot. For the batting team, it is like a wasted turn in a board game. For the bowler, it is a small win, and enough of them build pressure.",
+        "hinglish": "Dot ball wo ball hai jis pe batting team ko ek bhi run nahi milta. Naam scorebook se aaya hai, jahan ise ek chhote dot se likhte hain. Batting team ke liye ye board game mein chance waste hone jaisa hai. Bowler ke liye ye chhoti jeet hai, aur kai dot balls milke pressure banati hain."
+      },
+      "moderate": {
+        "en": "A legal ball with no runs scored. In a chase, every dot ball means the remaining runs must come from fewer balls.",
+        "hinglish": "Ek legal ball jis pe koi run nahi bana. Chase mein har dot ball ka matlab hai bache hue runs ab kam balls mein banane padenge."
+      },
+      "advanced": {
+        "en": "No run off a legal ball. Strings of dots force risky shots, which is how death bowlers create wickets.",
+        "hinglish": "Legal ball pe zero run. Lagaatar dots se batter risky shot khelta hai, aur yahin se death bowlers wickets nikaalte hain."
+      }
+    },
+    "reminder": {
+      "en": "Dot ball: no run scored off that ball.",
+      "hinglish": "Dot ball: us ball pe koi run nahi bana."
+    }
+  },
+  {
+    "id": "wicket",
+    "label": { "en": "Wicket", "hinglish": "Wicket" },
+    "aliases": ["wicket"],
+    "explanation": {
+      "beginner": {
+        "en": "A wicket means a batter is out and must leave the field. Each team has ten wickets to lose, so ten outs ends their turn to bat. The word also means the three wooden sticks, called stumps, behind the batter. Like lives in a video game, each wicket lost makes the team more careful.",
+        "hinglish": "Wicket matlab ek batter out ho gaya aur use maidan chhodna padega. Har team ke paas 10 wickets hote hain, 10 out hone pe batting khatam. Batter ke peeche lagi teen lakdi ki stumps ko bhi wicket kehte hain. Video game ki lives jaisa samjho: har wicket girne pe team aur sambhal ke khelti hai."
+      },
+      "moderate": {
+        "en": "A dismissal. A team bats until ten wickets fall or the overs run out, so losing wickets limits how freely the rest can attack.",
+        "hinglish": "Batter ka out hona. Team tab tak batting karti hai jab tak 10 wickets na girein ya overs khatam na hon, toh wickets girne se baaki batters khul ke nahi khel paate."
+      },
+      "advanced": {
+        "en": "One of ten. In a T20 chase, wickets in hand decide how hard the batting side can go in the death overs.",
+        "hinglish": "Dus mein se ek gaya. T20 chase mein haath mein bache wickets decide karte hain ki death overs mein kitna attack ho sakta hai."
+      }
+    },
+    "reminder": {
+      "en": "Wicket: a batter is out. Ten wickets and the innings ends.",
+      "hinglish": "Wicket: batter out. 10 wickets gire toh innings khatam."
+    }
+  },
+  {
+    "id": "lbw",
+    "label": { "en": "LBW", "hinglish": "LBW" },
+    "aliases": ["lbw"],
+    "explanation": {
+      "beginner": {
+        "en": "LBW stands for 'leg before wicket'. A batter is out LBW if the ball hits their leg or body when it would have gone on to hit the stumps behind them. The bat is meant to protect the stumps, not the legs. It is like a footballer stopping a shot on goal with their hand: you cannot block that way.",
+        "hinglish": "LBW ka matlab 'leg before wicket'. Agar ball batter ke pair ya body pe lage, aur wo seedha jaa ke peeche ki stumps pe lagti, toh batter LBW out hai. Stumps ko bat se bachana hota hai, pair se nahi. Jaise football mein goal jaata shot haath se rokna allowed nahi hota."
+      },
+      "moderate": {
+        "en": "Out when the ball hits the pad and would have gone on to hit the stumps. The umpire judges where it pitched, where it hit, and whether it was hitting the stumps.",
+        "hinglish": "Ball pad pe lage aur seedha stumps pe ja rahi ho toh out. Umpire dekhta hai ball kahan giri, kahan lagi, aur stumps pe ja rahi thi ya nahi."
+      },
+      "advanced": {
+        "en": "Pad blocks a ball heading for the stumps. Pitching outside leg is never out; impact outside off saves you if you played a shot.",
+        "hinglish": "Stumps pe jaati ball pad pe lagi. Leg ke bahar tappa toh kabhi out nahi; shot khelte hue off ke bahar lagi toh bhi bach gaye."
+      }
+    },
+    "reminder": {
+      "en": "LBW: the ball hit the leg, but it was going on to hit the stumps.",
+      "hinglish": "LBW: ball pair pe lagi, par wo stumps pe ja rahi thi."
+    }
+  },
+  {
+    "id": "drs",
+    "label": { "en": "DRS", "hinglish": "DRS" },
+    "aliases": ["drs", "ball-tracking"],
+    "explanation": {
+      "beginner": {
+        "en": "DRS stands for Decision Review System. It is a set of TV tools: slow-motion replays, a sound sensor that hears tiny touches of the bat, and ball-tracking that predicts where the ball was going. When a team asks for a review, the third umpire uses DRS to check the call, like a video referee in football.",
+        "hinglish": "DRS ka matlab Decision Review System. Ye TV ke tools hain: slow-motion replay, ek sound sensor jo bat ka halka sa touch bhi sun leta hai, aur ball-tracking jo batata hai ki ball kahan ja rahi thi. Jab team review maangti hai, toh third umpire DRS se decision check karta hai, football ke VAR jaisa."
+      },
+      "moderate": {
+        "en": "Decision Review System: replays, edge detection and ball-tracking used by the third umpire when a team challenges an on-field decision.",
+        "hinglish": "Decision Review System: replay, edge detection aur ball-tracking, jo third umpire use karta hai jab team on-field decision ko challenge karti hai."
+      },
+      "advanced": {
+        "en": "Ball-tracking plus edge detection. Projections that only clip the stumps fall to umpire's call, so the on-field decision still carries weight.",
+        "hinglish": "Ball-tracking aur edge detection. Jo ball stumps ko bas chhoo rahi ho, wo umpire's call pe jaati hai, isliye on-field decision ka wazan abhi bhi hai."
+      }
+    },
+    "reminder": {
+      "en": "DRS: the TV technology used to check umpire decisions.",
+      "hinglish": "DRS: umpire ke decision check karne wali TV technology."
+    }
+  },
+  {
+    "id": "review",
+    "label": { "en": "Review", "hinglish": "Review" },
+    "aliases": ["review", "reviews"],
+    "explanation": {
+      "beginner": {
+        "en": "A review is when a team disagrees with the umpire's decision and asks for it to be checked on TV. The captain or batter makes a 'T' sign with their hands. Each team gets only a few reviews, so they must choose wisely, like lifelines in a quiz show. If the review proves the umpire wrong, the decision changes.",
+        "hinglish": "Review tab hota hai jab team umpire ke decision se sehmat nahi hoti aur TV pe check karwana chahti hai. Captain ya batter haathon se 'T' ka sign banata hai. Har team ke paas gine-chune reviews hote hain, toh soch samajh ke use karne padte hain, quiz show ki lifeline jaisa. Umpire galat nikla toh decision badal jaata hai."
+      },
+      "moderate": {
+        "en": "A team's challenge to an on-field decision, checked by the third umpire. Teams get a limited number, and lose one only when the challenge fails.",
+        "hinglish": "On-field decision ko team ka challenge, jo third umpire check karta hai. Reviews limited hote hain, aur ek tabhi jaata hai jab challenge fail ho."
+      },
+      "advanced": {
+        "en": "Limited, and only lost on a failed challenge; umpire's call keeps it. Burning one on a hopeful LBW can cost you later.",
+        "hinglish": "Limited hote hain, aur sirf fail hone pe jaate hain; umpire's call pe bach jaata hai. Ummeed pe LBW review jalaana baad mein mehnga pad sakta hai."
+      }
+    },
+    "reminder": {
+      "en": "Review: a team asks the TV umpire to check a decision.",
+      "hinglish": "Review: team TV umpire se decision check karwati hai."
+    }
+  },
+  {
+    "id": "umpires-call",
+    "label": { "en": "Umpire's call", "hinglish": "Umpire's call" },
+    "aliases": ["umpire's call"],
+    "explanation": {
+      "beginner": {
+        "en": "Umpire's call happens when the TV replay shows something too close to be sure, like the ball only just touching the edge of the stumps. In that case, the umpire's original decision stays, whether it was out or not out. It is like a tie going to whoever was already ahead. The team does not lose its review.",
+        "hinglish": "Umpire's call tab hota hai jab TV replay mein cheez itni close ho ki pakka na keh sakein, jaise ball stumps ke kinaare ko bas chhoo rahi ho. Tab umpire ka pehla decision hi rehta hai, out ho ya not out. Jaise barabari mein faisla pehle se aage wale ke haq mein jaata hai. Team ka review bhi nahi jaata."
+      },
+      "moderate": {
+        "en": "If ball-tracking shows a very close case, the on-field decision stands. The reviewing team keeps its review, but the decision does not change.",
+        "hinglish": "Ball-tracking mein case bahut close ho toh on-field decision hi rehta hai. Review lene wali team ka review bachta hai, par decision nahi badalta."
+      },
+      "advanced": {
+        "en": "Under half the ball hitting the stumps zone: the on-field call stands and the review is kept. One ball, either verdict.",
+        "hinglish": "Ball ka aadhe se kam hissa stumps zone mein: on-field decision rehta hai, review bachta hai. Wahi ball out bhi ho sakti hai, not out bhi."
+      }
+    },
+    "reminder": {
+      "en": "Umpire's call: too close to tell, so the original decision stays.",
+      "hinglish": "Umpire's call: bahut close hai, toh pehla decision hi rehta hai."
+    }
+  },
+  {
+    "id": "free-hit",
+    "label": { "en": "Free hit", "hinglish": "Free hit" },
+    "aliases": ["free hit"],
+    "explanation": {
+      "beginner": {
+        "en": "A free hit is the ball bowled right after a no ball, which is a ball the bowler bowled against the rules. On a free hit, the batter cannot be out caught or bowled, so they can swing as hard as they like. It is like a penalty kick in football: a big chance with little risk. Only a run out can still get them.",
+        "hinglish": "Free hit wo ball hai jo no ball ke turant baad daali jaati hai. No ball matlab bowler ki rules tod ke daali gayi ball. Free hit pe batter catch ya bowled se out nahi ho sakta, toh wo jitna chahe zor se maar sakta hai. Football ke penalty jaisa: bada mauka, khatra kam. Sirf run out ho sakta hai."
+      },
+      "moderate": {
+        "en": "The ball after a no ball. The batter cannot be caught or bowled, only run out, so it is a free chance to swing big.",
+        "hinglish": "No ball ke baad wali ball. Batter catch ya bowled out nahi ho sakta, sirf run out, toh bada shot khelne ka free mauka hai."
+      },
+      "advanced": {
+        "en": "Follows any no ball. Only a run out applies. Pure upside for the batter.",
+        "hinglish": "Har no ball ke baad. Sirf run out ho sakta hai. Batter ke liye sirf fayda."
+      }
+    },
+    "reminder": {
+      "en": "Free hit: the ball after a no ball. Can't be caught or bowled.",
+      "hinglish": "Free hit: no ball ke baad wali ball. Catch ya bowled se out nahi."
+    }
+  },
+  {
+    "id": "no-ball",
+    "label": { "en": "No ball", "hinglish": "No ball" },
+    "aliases": ["no ball", "no-ball"],
+    "explanation": {
+      "beginner": {
+        "en": "A no ball is a ball that breaks the rules, most often because the bowler's front foot lands past the white line they must stay behind. The batting team gets one extra run, the ball does not count, and the next ball is a free hit. It is like a false start in a running race: you redo it, and you pay for it.",
+        "hinglish": "No ball wo ball hai jo rules todti hai, zyada tar jab bowler ka aage wala pair us safed line ke aage pad jaata hai jiske peeche rehna hota hai. Batting team ko ek extra run milta hai, wo ball ginti mein nahi aati, aur agli ball free hit hoti hai. Race ke false start jaisa: dobara karo, aur saza bhi milegi."
+      },
+      "moderate": {
+        "en": "An illegal delivery, usually from overstepping the crease. It gives a run, it has to be bowled again, and the next ball is a free hit.",
+        "hinglish": "Galat delivery, aksar crease ke aage pair jaane se. Ek run milta hai, ball dobara daalni padti hai, aur agli ball free hit hoti hai."
+      },
+      "advanced": {
+        "en": "Overstep or a full toss above the waist: an extra run, an extra ball and a free hit. A very costly T20 mistake.",
+        "hinglish": "Overstep ya waist ke upar full toss: extra run, extra ball aur free hit. T20 mein bahut mehngi galti."
+      }
+    },
+    "reminder": {
+      "en": "No ball: an illegal ball. Extra run, and the next ball is a free hit.",
+      "hinglish": "No ball: galat ball. Extra run, aur agli ball free hit."
+    }
+  },
+  {
+    "id": "wide",
+    "label": { "en": "Wide", "hinglish": "Wide" },
+    "aliases": ["wide"],
+    "explanation": {
+      "beginner": {
+        "en": "A wide is a ball bowled so far away from the batter that they could not reasonably hit it. The umpire stretches both arms out to signal it. The batting team gets one free run, and the bowler must bowl that ball again. It is like a tennis serve that lands out: it does not count, and you go again.",
+        "hinglish": "Wide wo ball hai jo batter se itni door daali gayi ho ki wo use theek se maar hi na sake. Umpire dono haath phaila ke iska signal deta hai. Batting team ko ek free run milta hai, aur bowler ko wo ball dobara daalni padti hai. Tennis ki us serve jaisa jo court ke bahar gire: ginti nahi, dobara karo."
+      },
+      "moderate": {
+        "en": "A ball too far from the batter to hit. It adds one run and must be bowled again, but unlike a no ball, there is no free hit.",
+        "hinglish": "Batter ki pahunch se bahar ball. Ek run judta hai aur ball dobara daalni padti hai, par no ball ki tarah free hit nahi milta."
+      },
+      "advanced": {
+        "en": "One run plus a re-bowl, no free hit. At the death, a yorker missed down the leg side often ends up as a wide.",
+        "hinglish": "Ek run aur ball dobara, free hit nahi. Death overs mein leg side pe miss hua yorker aksar wide ban jaata hai."
+      }
+    },
+    "reminder": {
+      "en": "Wide: too far away to hit. One run, and the ball is bowled again.",
+      "hinglish": "Wide: pahunch se bahar. Ek run, aur ball dobara."
+    }
+  },
+  {
+    "id": "yorker",
+    "label": { "en": "Yorker", "hinglish": "Yorker" },
+    "aliases": ["yorker"],
+    "explanation": {
+      "beginner": {
+        "en": "A yorker is a ball aimed to land right at the batter's feet, close to where the bat touches the ground. Because it arrives so low, the batter has no room to swing hard. It is the hardest ball to hit for big runs. Think of a ball rolled straight at your toes: tricky to kick it far.",
+        "hinglish": "Yorker wo ball hai jo seedha batter ke pairon ke paas girti hai, wahan jahan bat zameen ko chhoota hai. Itni neeche aati hai ki batter ko zor se bat ghumane ki jagah nahi milti. Bade runs ke liye sabse mushkil ball. Socho koi ball seedha tumhare pair ki ungliyon pe aaye: door tak maarna mushkil hai."
+      },
+      "moderate": {
+        "en": "A full ball that lands at the batter's feet. It is very hard to hit for a boundary, so bowlers use it most in the final overs.",
+        "hinglish": "Full ball jo batter ke pairon ke paas girti hai. Is pe boundary maarna bahut mushkil, isliye bowlers ise aakhri overs mein sabse zyada daalte hain."
+      },
+      "advanced": {
+        "en": "Full at the base of the stumps. It kills the swing arc; miss by a little and it becomes a full toss or a wide.",
+        "hinglish": "Stumps ke base pe full. Bat ka swing hi nahi banta; thoda sa chooka toh full toss ya wide ban jaata hai."
+      }
+    },
+    "reminder": {
+      "en": "Yorker: a ball aimed at the batter's feet. Very hard to hit.",
+      "hinglish": "Yorker: pairon pe aane wali ball. Maarna bahut mushkil."
+    }
+  },
+  {
+    "id": "required-run-rate",
+    "label": { "en": "Required run rate", "hinglish": "Required run rate" },
+    "aliases": ["required run rate", "asking rate"],
+    "explanation": {
+      "beginner": {
+        "en": "The required run rate is how many runs the chasing team needs, on average, in each remaining over to win. An over is six balls. If this number keeps going up, the team is falling behind. It is like a train running late: the longer it waits, the faster it has to go to arrive on time.",
+        "hinglish": "Required run rate batata hai ki chase karne wali team ko jeetne ke liye bache hue har over mein average kitne runs chahiye. Ek over mein 6 balls hoti hain. Agar ye number badhta jaaye, toh team peeche reh rahi hai. Late chal rahi train jaisa: jitni der, utna tez chalna padega time pe pahunchne ke liye."
+      },
+      "moderate": {
+        "en": "Runs needed divided by overs left. Compare it with the current run rate: if it is higher, the chasing team has to speed up.",
+        "hinglish": "Bache hue runs ko bache hue overs se divide karo. Current run rate se compare karo: agar ye zyada hai, toh chase karne wali team ko speed badhani hogi."
+      },
+      "advanced": {
+        "en": "Runs needed divided by overs left. Read it with wickets in hand: a high rate is fine with wickets left, scary without them.",
+        "hinglish": "Bache runs divided by bache overs. Wickets ke saath padho: wickets haath mein hon toh high rate chal jaata hai, warna darr lagta hai."
+      }
+    },
+    "reminder": {
+      "en": "Required run rate: runs needed per over to win.",
+      "hinglish": "Required run rate: jeetne ke liye har over kitne runs chahiye."
+    }
+  },
+  {
+    "id": "run-rate",
+    "label": { "en": "Run rate", "hinglish": "Run rate" },
+    "aliases": ["run rate"],
+    "explanation": {
+      "beginner": {
+        "en": "The run rate is how many runs a team has scored per over so far, on average. An over is six balls bowled by one bowler. It tells you the speed of the batting, like the speedometer in a car. In a chase, fans compare it with the required run rate to see if the team is on track.",
+        "hinglish": "Run rate batata hai ki team ne abhi tak har over mein average kitne runs banaye. Over matlab ek bowler ki 6 balls. Ye batting ki speed hai, gaadi ke speedometer jaisa. Chase mein fans ise required run rate se compare karte hain, ye dekhne ke liye ki team sahi raaste pe hai ya nahi."
+      },
+      "moderate": {
+        "en": "Runs scored divided by overs bowled so far. It shows the team's scoring speed and, in a chase, is compared with the required rate.",
+        "hinglish": "Ab tak ke runs ko ab tak ke overs se divide karo. Ye team ki scoring speed batata hai, aur chase mein required rate se compare hota hai."
+      },
+      "advanced": {
+        "en": "Runs per over so far. The gap to the required rate, not the number by itself, tells you who is ahead.",
+        "hinglish": "Ab tak ke runs per over. Asli kahani required rate se farak mein hai, sirf is number mein nahi."
+      }
+    },
+    "reminder": {
+      "en": "Run rate: runs per over so far. The team's speed.",
+      "hinglish": "Run rate: ab tak har over ke runs. Team ki speed."
+    }
+  },
+  {
+    "id": "strike-rate",
+    "label": { "en": "Strike rate", "hinglish": "Strike rate" },
+    "aliases": ["strike rate"],
+    "explanation": {
+      "beginner": {
+        "en": "Strike rate shows how fast a batter scores. It is the number of runs they would make if they faced a hundred balls at the same speed. A higher number means faster scoring. In short twenty-over matches like this one, speed matters a lot. It is like typing speed, but runs instead of words.",
+        "hinglish": "Strike rate batata hai ki batter kitni tezi se runs banata hai. Matlab agar wo isi speed se sau balls khele, toh kitne runs banenge. Number jitna bada, utni tez batting. T20 jaise chhote matches mein speed bahut maayne rakhti hai. Typing speed jaisa socho, bas words ki jagah runs."
+      },
+      "moderate": {
+        "en": "Runs per hundred balls faced by a batter. In T20 cricket, a high strike rate matters as much as the total runs scored.",
+        "hinglish": "Batter ke har sau balls pe runs. T20 mein high strike rate utna hi zaroori hai jitne total runs."
+      },
+      "advanced": {
+        "en": "Runs per hundred balls. Death-over hitters are judged on it more than on average, because balls are the scarce resource.",
+        "hinglish": "Har sau balls pe runs. Death overs ke hitters ko average se zyada isi pe parkha jaata hai, kyunki balls hi kam bachi hoti hain."
+      }
+    },
+    "reminder": {
+      "en": "Strike rate: a batter's runs per 100 balls. Their speed.",
+      "hinglish": "Strike rate: batter ke har sau balls pe runs. Uski speed."
+    }
+  },
+  {
+    "id": "economy",
+    "label": { "en": "Economy", "hinglish": "Economy" },
+    "aliases": ["economy"],
+    "explanation": {
+      "beginner": {
+        "en": "Economy tells you how many runs a bowler gives away in each over, on average. An over is the six balls a bowler bowls in a row. For a bowler, a lower economy is better, because the other team scores less. It is like a monthly budget: the less you spend, the better you are doing.",
+        "hinglish": "Economy batati hai ki ek bowler har over mein average kitne runs deta hai. Over matlab bowler ki lagaatar 6 balls. Bowler ke liye economy jitni kam, utna achha, kyunki doosri team kam runs banati hai. Mahine ke budget jaisa: jitna kam kharch, utna achha."
+      },
+      "moderate": {
+        "en": "Runs a bowler concedes per over, on average. A low economy builds pressure even without wickets, especially in the final overs.",
+        "hinglish": "Bowler har over mein kitne runs deta hai. Kam economy bina wicket ke bhi pressure banati hai, khaas kar aakhri overs mein."
+      },
+      "advanced": {
+        "en": "Runs conceded per over. A tight spell at the death often wins more T20s than an expensive wicket-taker.",
+        "hinglish": "Har over mein diye gaye runs. Death mein tight spell aksar mehnge wicket-taker se zyada T20 jitaata hai."
+      }
+    },
+    "reminder": {
+      "en": "Economy: runs a bowler gives away per over. Lower is better.",
+      "hinglish": "Economy: bowler har over kitne runs deta hai. Kam matlab achha."
+    }
+  },
+  {
+    "id": "death-overs",
+    "label": { "en": "Death overs", "hinglish": "Death overs" },
+    "aliases": ["death overs", "the death"],
+    "explanation": {
+      "beginner": {
+        "en": "The death overs are the last few overs of an innings, usually the final five. This is when batters take the most risks to score fast, and bowlers use their hardest tricks to stop them. Most matches are won or lost here. It is like the last minutes of a football match, when every move counts.",
+        "hinglish": "Death overs matlab innings ke aakhri kuch overs, aam taur pe last 5. Is waqt batters tez runs ke liye sabse zyada risk lete hain, aur bowlers unhe rokne ke liye apni best tricks chalte hain. Zyada tar matches yahin jeete ya haare jaate hain. Football match ke aakhri minutes jaisa, jab har move maayne rakhta hai."
+      },
+      "moderate": {
+        "en": "The final overs of an innings, usually the last five. Batters attack, bowlers turn to yorkers and slower balls, and matches swing fast.",
+        "hinglish": "Innings ke aakhri overs, aam taur pe last 5. Batters attack karte hain, bowlers yorkers aur slower balls daalte hain, aur match jaldi palat sakta hai."
+      },
+      "advanced": {
+        "en": "Overs sixteen to twenty. Yorker and slower-ball execution, plus wickets in hand, decide most chases here.",
+        "hinglish": "Overs solah se bees. Yorkers aur slower balls ka execution, aur haath mein bache wickets, yahin zyada tar chase decide karte hain."
+      }
+    },
+    "reminder": {
+      "en": "Death overs: the last few overs, where matches are decided.",
+      "hinglish": "Death overs: aakhri overs, jahan match decide hota hai."
+    }
+  },
+  {
+    "id": "run-out",
+    "label": { "en": "Run out", "hinglish": "Run out" },
+    "aliases": ["run out"],
+    "explanation": {
+      "beginner": {
+        "en": "A run out happens when the batters are running between the two ends, and a fielder hits the stumps with the ball before a batter gets their bat or body behind a safe line called the crease. That batter is out. It is like a game of tag: if the ball gets there before you, you are caught.",
+        "hinglish": "Run out tab hota hai jab batters do ends ke beech bhaag rahe hon aur fielder ball se stumps gira de, isse pehle ki batter apna bat ya body ek safe line ke andar laaye. Us line ko crease kehte hain. Wo batter out. Pakdam-pakdai jaisa: ball tumse pehle pahunchi, toh tum pakde gaye."
+      },
+      "moderate": {
+        "en": "A batter is out if the stumps are broken with the ball while they are short of the crease. It usually comes from a mix-up or a risky extra run.",
+        "hinglish": "Batter crease tak pahunchne se pehle ball se stumps gir jaayein toh out. Aksar mix-up ya risky extra run ki wajah se hota hai."
+      },
+      "advanced": {
+        "en": "Stumps broken with the batter short of the crease. In a tight chase it costs a wicket and the tempo of the partnership.",
+        "hinglish": "Batter crease se pehle, stumps gir gaye. Tight chase mein isse wicket bhi jaata hai aur partnership ka rhythm bhi."
+      }
+    },
+    "reminder": {
+      "en": "Run out: stumps broken before the batter reaches the crease.",
+      "hinglish": "Run out: crease tak pahunchne se pehle stumps gir gaye."
+    }
+  }
+]
