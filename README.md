@@ -26,6 +26,7 @@ A watch-along app lives or dies on whether people come back for the next match. 
 - **English or Hinglish.** One tap switches the commentary, the creator lines, the explanations and the interface.
 - **A gentle nudge.** When a moment has a word you haven't learned, a small chip offers it once ("Confused? Tap to understand: Powerplay") and then gets out of the way. Nothing ever needs typing.
 - **Catch me up.** A 20-second briefing: where the chase stands, what happened in the last few balls, and one thing to watch next.
+- **Match menu and outcome animations.** A staggered slide-out menu reuses the live score, current moment and catch-up briefing. Four, six and wicket animations are driven by each ball's structured match data.
 - **Learned today.** Words you have tapped are collected. Tap one again and you get a one-line reminder first, not the full lecture.
 - **The score itself is explained.** Even "RRR" on the scoreboard is tappable, and the pressure meter uses a word and a bar count, never colour alone.
 

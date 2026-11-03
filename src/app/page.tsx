@@ -15,6 +15,7 @@ import LearnedTally from '@/components/LearnedTally';
 import Controls from '@/components/Controls';
 import FinishCard from '@/components/FinishCard';
 import Welcome from '@/components/Welcome';
+import MatchOverlay from '@/components/MatchOverlay';
 import { creatorById, match } from '@/lib/data';
 import { COPY } from '@/lib/copy';
 import { LANGS, LEVELS } from '@/lib/explain';
@@ -47,6 +48,10 @@ export default function Home() {
   const [index, setIndex] = useState(0);
   const [sheet, setSheet] = useState<OpenSheet>(null);
   const [nudge, setNudge] = useState<string | null>(null);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const contentRef = useRef<HTMLDivElement>(null);
+  const controlsRef = useRef<HTMLDivElement>(null);
+  const menuToggleRef = useRef<HTMLButtonElement>(null);
   const nudged = useRef(new Set<string>()); // each word is nudged at most once per visit
 
   const copy = COPY[lang];
@@ -98,6 +103,7 @@ export default function Home() {
 
   return (
     <>
+      <div ref={contentRef}>
       {/* Score stays pinned on normal phones. On very short screens (in-app browsers with
           big toolbars) it scrolls away so the moment itself has room; Next stays pinned. */}
       <div className="sticky top-0 z-20 border-b border-line/60 bg-bg/85 pb-3 backdrop-blur-md [@media(max-height:700px)]:static">
@@ -170,13 +176,18 @@ export default function Home() {
           />
         )}
       </main>
+      </div>
 
       <Controls
         isEnd={isEnd}
         copy={copy}
+        filterRef={controlsRef}
+        menuToggleRef={menuToggleRef}
+        menuOpen={menuOpen}
         onNext={next}
         onCatchUp={() => setSheet({ type: 'catchup' })}
         onRestart={restart}
+        onToggleMenu={() => setMenuOpen((isOpen) => !isOpen)}
       />
 
       {sheet?.type === 'explain' && (
@@ -193,6 +204,21 @@ export default function Home() {
           onClose={closeSheet}
         />
       )}
+      <MatchOverlay
+        contentRef={contentRef}
+        controlsRef={controlsRef}
+        toggleRef={menuToggleRef}
+        open={menuOpen}
+        state={state}
+        meta={meta}
+        event={event}
+        level={level}
+        lang={lang}
+        copy={copy}
+        momentNumber={index + 1}
+        totalMoments={events.length}
+        onOpenChange={setMenuOpen}
+      />
     </>
   );
 }

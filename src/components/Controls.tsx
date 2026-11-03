@@ -4,18 +4,33 @@
 // At the end of the match the primary button becomes "Watch again".
 
 import type { Copy } from '@/lib/copy';
+import type { RefObject } from 'react';
 
 interface Props {
   isEnd: boolean;
   copy: Copy;
+  filterRef: RefObject<HTMLDivElement | null>;
+  menuToggleRef: RefObject<HTMLButtonElement | null>;
+  menuOpen: boolean;
   onNext: () => void;
   onCatchUp: () => void;
   onRestart: () => void;
+  onToggleMenu: () => void;
 }
 
-export default function Controls({ isEnd, copy, onNext, onCatchUp, onRestart }: Props) {
+export default function Controls({
+  isEnd,
+  copy,
+  filterRef,
+  menuToggleRef,
+  menuOpen,
+  onNext,
+  onCatchUp,
+  onRestart,
+  onToggleMenu,
+}: Props) {
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-bg/90 backdrop-blur-md">
+    <div ref={filterRef} className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-bg/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-[480px] gap-2.5 px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3">
         <button
           type="button"
@@ -40,6 +55,23 @@ export default function Controls({ isEnd, copy, onNext, onCatchUp, onRestart }: 
               <path d="M14 9a5 5 0 11-1.5-3.6M14 3v3h-3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             ) : (
               <path d="M4 9h10m-4-4l4 4-4 4" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+            )}
+          </svg>
+        </button>
+        <button
+          ref={menuToggleRef}
+          type="button"
+          aria-label={menuOpen ? copy.close : copy.matchMenu}
+          aria-expanded={menuOpen}
+          aria-controls="match-overlay-sidebar"
+          onClick={onToggleMenu}
+          className="match-overlay-toggle"
+        >
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none">
+            {menuOpen ? (
+              <path d="M5 5l10 10M15 5L5 15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+            ) : (
+              <path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             )}
           </svg>
         </button>

@@ -104,15 +104,17 @@ export default function Sheet({ title, onClose, closeLabel, children }: Props) {
           transition: dragging ? 'none' : 'transform 200ms ease-out',
         }}
       >
-        <div
-          className="flex shrink-0 touch-none items-center justify-between gap-2 px-4 pt-2"
-          onPointerDown={onPointerDown}
-          onPointerMove={onPointerMove}
-          onPointerUp={onPointerUp}
-          onPointerCancel={onPointerUp}
-        >
+        <div className="flex h-14 shrink-0 items-center justify-between gap-2 px-4 pt-2">
           <span className="w-12" />
-          <span aria-hidden="true" className="my-2 h-1.5 w-11 rounded-full bg-line" />
+          <div
+            className="flex h-full flex-1 touch-none items-center justify-center"
+            onPointerDown={onPointerDown}
+            onPointerMove={onPointerMove}
+            onPointerUp={onPointerUp}
+            onPointerCancel={onPointerUp}
+          >
+            <span aria-hidden="true" className="my-2 h-1.5 w-11 rounded-full bg-line" />
+          </div>
           <button
             type="button"
             onClick={onClose}
