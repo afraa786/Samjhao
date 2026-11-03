@@ -4,6 +4,7 @@
 // numbers come from lib/matchMath.ts and words come from lib/explain.ts + data/.
 
 import { useCallback, useRef, useState } from 'react';
+import Image from 'next/image';
 import Header from '@/components/Header';
 import ScoreCard from '@/components/ScoreCard';
 import MomentCard from '@/components/MomentCard';
@@ -103,79 +104,91 @@ export default function Home() {
 
   return (
     <>
-      <div ref={contentRef}>
-      {/* Score stays pinned on normal phones. On very short screens (in-app browsers with
-          big toolbars) it scrolls away so the moment itself has room; Next stays pinned. */}
-      <div className="sticky top-0 z-20 border-b border-line/60 bg-bg/85 pb-3 backdrop-blur-md [@media(max-height:700px)]:static">
-        <div className="mx-auto max-w-[480px]">
-          <Header
-            level={level}
-            lang={lang}
-            copy={copy}
-            onLevel={setLevel}
-            onLang={setLang}
-            learnedSlot={
-              <LearnedTally learned={learned} lang={lang} copy={copy} onOpenTerm={openTerm} onReset={() => setLearned([])} />
-            }
+      <div ref={contentRef} className="match-page-layout">
+        <aside className="match-promo" aria-label="Samjhao Saathi">
+          <Image
+            src="/image.png"
+            alt="Samjhao Saathi: the T20 World Cup winning team celebrates together"
+            fill
+            priority
+            sizes="(max-width: 900px) 100vw, 400px"
+            className="match-promo-image"
           />
-          <ScoreCard meta={meta} state={state} copy={copy} onOpenTerm={openTerm} />
-        </div>
-      </div>
+        </aside>
+        <div className="match-main-column">
+          {/* Score stays pinned on normal phones. On very short screens (in-app browsers with
+              big toolbars) it scrolls away so the moment itself has room; Next stays pinned. */}
+          <div className="sticky top-0 z-20 border-b border-line/60 bg-bg/85 pb-3 backdrop-blur-md [@media(max-height:700px)]:static">
+            <div className="mx-auto max-w-[480px]">
+              <Header
+                level={level}
+                lang={lang}
+                copy={copy}
+                onLevel={setLevel}
+                onLang={setLang}
+                learnedSlot={
+                  <LearnedTally learned={learned} lang={lang} copy={copy} onOpenTerm={openTerm} onReset={() => setLearned([])} />
+                }
+              />
+              <ScoreCard meta={meta} state={state} copy={copy} onOpenTerm={openTerm} />
+            </div>
+          </div>
 
-      <main className="mx-auto max-w-[480px] px-4 pb-[calc(120px+env(safe-area-inset-bottom))] pt-4">
-        <h1 className="sr-only">Samjhao: {copy.tagline}</h1>
+          <main className="mx-auto max-w-[480px] px-4 pb-[calc(120px+env(safe-area-inset-bottom))] pt-4">
+            <h1 className="sr-only">Samjhao: {copy.tagline}</h1>
 
-        {/* Live strip: where we are in the simulated feed. */}
-        <div className="mb-3 flex items-center gap-2 text-[12px] font-semibold">
-          {isEnd ? (
-            <span className="whitespace-nowrap rounded-full bg-surface-2 px-2 py-0.5 text-muted">{copy.matchOver}</span>
-          ) : (
-            <span className="flex items-center gap-1.5 rounded-full bg-out/15 px-2 py-0.5 text-out">
-              <span aria-hidden="true" className="anim-live h-1.5 w-1.5 rounded-full bg-out" />
-              {copy.live}
-            </span>
-          )}
-          <span className="tabular whitespace-nowrap text-muted">{copy.momentOf(index + 1, events.length)}</span>
-          <button
-            type="button"
-            onClick={restart}
-            className="-mr-2 ml-auto min-h-12 shrink-0 rounded-full px-3 text-muted hover:text-text"
-          >
-            ↺ {copy.restart}
-          </button>
-        </div>
-        <div
-          className="-mt-1 mb-4 h-1 overflow-hidden rounded-full bg-surface-2"
-          role="progressbar"
-          aria-label={copy.momentOf(index + 1, events.length)}
-          aria-valuemin={1}
-          aria-valuemax={events.length}
-          aria-valuenow={index + 1}
-        >
-          <div
-            className="h-full rounded-full bg-accent transition-[width] duration-500"
-            style={{ width: `${((index + 1) / events.length) * 100}%` }}
-          />
-        </div>
+            {/* Live strip: where we are in the simulated feed. */}
+            <div className="mb-3 flex items-center gap-2 text-[12px] font-semibold">
+              {isEnd ? (
+                <span className="whitespace-nowrap rounded-full bg-surface-2 px-2 py-0.5 text-muted">{copy.matchOver}</span>
+              ) : (
+                <span className="flex items-center gap-1.5 rounded-full bg-out/15 px-2 py-0.5 text-out">
+                  <span aria-hidden="true" className="anim-live h-1.5 w-1.5 rounded-full bg-out" />
+                  {copy.live}
+                </span>
+              )}
+              <span className="tabular whitespace-nowrap text-muted">{copy.momentOf(index + 1, events.length)}</span>
+              <button
+                type="button"
+                onClick={restart}
+                className="-mr-2 ml-auto min-h-12 shrink-0 rounded-full px-3 text-muted hover:text-text"
+              >
+                ↺ {copy.restart}
+              </button>
+            </div>
+            <div
+              className="-mt-1 mb-4 h-1 overflow-hidden rounded-full bg-surface-2"
+              role="progressbar"
+              aria-label={copy.momentOf(index + 1, events.length)}
+              aria-valuemin={1}
+              aria-valuemax={events.length}
+              aria-valuenow={index + 1}
+            >
+              <div
+                className="h-full rounded-full bg-accent transition-[width] duration-500"
+                style={{ width: `${((index + 1) / events.length) * 100}%` }}
+              />
+            </div>
 
-        {/* At full time the result leads; the final moment follows it. */}
-        {isEnd && (
-          <FinishCard state={state} meta={meta} learned={learned} lang={lang} copy={copy} onOpenTerm={openTerm} />
-        )}
-        <MomentCard key={`m${index}`} event={event} lang={lang} copy={copy} onOpenTerm={openTerm} />
-        {nudge && !learned.includes(nudge) && (
-          <Nudge key={nudge} termId={nudge} lang={lang} copy={copy} onTap={() => openTerm(nudge)} onDismiss={dismissNudge} />
-        )}
-        {creator && (
-          <CreatorLine
-            key={`c${index}`}
-            line={creator}
-            lang={lang}
-            copy={copy}
-            onOpen={() => setSheet({ type: 'explain', target: { kind: 'creator', id: creator.id } })}
-          />
-        )}
-      </main>
+            {/* At full time the result leads; the final moment follows it. */}
+            {isEnd && (
+              <FinishCard state={state} meta={meta} learned={learned} lang={lang} copy={copy} onOpenTerm={openTerm} />
+            )}
+            <MomentCard key={`m${index}`} event={event} lang={lang} copy={copy} onOpenTerm={openTerm} />
+            {nudge && !learned.includes(nudge) && (
+              <Nudge key={nudge} termId={nudge} lang={lang} copy={copy} onTap={() => openTerm(nudge)} onDismiss={dismissNudge} />
+            )}
+            {creator && (
+              <CreatorLine
+                key={`c${index}`}
+                line={creator}
+                lang={lang}
+                copy={copy}
+                onOpen={() => setSheet({ type: 'explain', target: { kind: 'creator', id: creator.id } })}
+              />
+            )}
+          </main>
+        </div>
       </div>
 
       <Controls

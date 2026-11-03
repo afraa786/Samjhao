@@ -162,20 +162,63 @@ body {
 .event-wicket-stumps { transform-origin: center bottom; animation: wicket-stumps 1s ease-out both; }
 .event-wicket-label { animation: wicket-label 2s ease-out both; }
 
+.match-page-layout {
+  display: grid;
+  width: min(1000px, calc(100% - 32px));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  justify-content: center;
+  margin-inline: auto;
+}
+
+.match-promo {
+  position: sticky;
+  top: 8vh;
+  display: grid;
+  height: min(78dvh, 700px);
+  min-height: 360px;
+  place-items: center;
+  align-self: start;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  box-shadow: none;
+}
+
+.match-promo-image {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  box-shadow: none;
+  object-fit: contain;
+}
+
+.match-main-column {
+  min-width: 0;
+}
+
 .match-overlay-toggle {
   position: relative;
   right: 0;
   z-index: 1;
-  display: grid;
+  display: flex;
   min-height: 56px;
-  width: 56px;
-  flex: 0 0 56px;
-  place-items: center;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
   border: 0;
   border-radius: 16px;
   background: #fff;
-  padding: 0;
+  padding: 0 12px;
   color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
   cursor: pointer;
   transition: background-color 300ms, color 300ms;
 }
@@ -216,8 +259,8 @@ body {
 
 .match-menu-card:hover,
 .match-menu-card:focus-visible {
-  background: #020b44;
-  color: #fff;
+  background: var(--accent);
+  color: var(--accent-ink);
 }
 
 .match-menu-card-title {
@@ -246,8 +289,8 @@ body {
 }
 
 .match-menu-card-copy {
-  transform: translateY(20px);
-  opacity: 0;
+  transform: translateY(0);
+  opacity: 1;
   font-size: 15px;
   line-height: 1.5;
   transition: transform 300ms, opacity 300ms;
@@ -255,11 +298,34 @@ body {
 
 .match-menu-card:hover .match-menu-card-copy,
 .match-menu-card:focus-visible .match-menu-card-copy {
-  transform: translateY(0);
-  opacity: 1;
+  transform: translateY(-2px);
 }
 
 @media (max-width: 900px) {
+  .match-page-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .match-promo {
+    position: relative;
+    top: auto;
+    width: min(100% - 32px, 480px);
+    height: clamp(180px, 48vw, 250px);
+    min-height: 0;
+    margin: 12px auto 16px;
+  }
+
+  .match-promo-image {
+    object-fit: cover;
+    object-position: center 70%;
+  }
+
+  .match-main-column {
+    width: 100%;
+  }
+
   .match-overlay-sidebar {
     width: 100vw;
   }
@@ -272,9 +338,10 @@ body {
 @media (max-width: 359px) {
   .match-overlay-toggle {
     min-height: 48px;
-    width: 48px;
-    flex-basis: 48px;
     border-radius: 14px;
+    gap: 4px;
+    padding-inline: 8px;
+    font-size: 12px;
   }
 }
 

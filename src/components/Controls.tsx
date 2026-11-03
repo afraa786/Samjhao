@@ -67,6 +67,7 @@ export default function Controls({
           onClick={onToggleMenu}
           className="match-overlay-toggle"
         >
+          <span>{copy.matchMenu}</span>
           <svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none">
             {menuOpen ? (
               <path d="M5 5l10 10M15 5L5 15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
