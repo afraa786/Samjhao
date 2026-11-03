@@ -106,14 +106,19 @@ export default function Home() {
     <>
       <div ref={contentRef} className="match-page-layout">
         <aside className="match-promo" aria-label="Samjhao Saathi">
-          <Image
-            src="/image.png"
-            alt="Samjhao Saathi: the T20 World Cup winning team celebrates together"
-            fill
-            priority
-            sizes="(max-width: 900px) 100vw, 400px"
-            className="match-promo-image"
-          />
+          <div className="match-promo-art">
+            <span className="match-promo-brand font-display text-[24px] min-[360px]:text-[26px] font-extrabold leading-none tracking-tight" aria-hidden="true">
+              samjhao<span className="text-accent">.</span>
+            </span>
+            <Image
+              src="/image.png"
+              alt="Samjhao Saathi: the T20 World Cup winning team celebrates together"
+              fill
+              priority
+              sizes="(max-width: 900px) 100vw, 400px"
+              className="match-promo-image"
+            />
+          </div>
         </aside>
         <div className="match-main-column">
           {/* Score stays pinned on normal phones. On very short screens (in-app browsers with

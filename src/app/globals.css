@@ -186,6 +186,24 @@ body {
   box-shadow: none;
 }
 
+.match-promo-art {
+  position: relative;
+  align-self: end;
+  width: auto;
+  max-width: 100%;
+  height: calc(100% - 36px);
+  aspect-ratio: 454 / 642;
+}
+
+.match-promo-brand {
+  position: absolute;
+  top: -32px;
+  left: 0;
+  z-index: 1;
+  color: #fff;
+  text-shadow: 0 2px 8px rgb(0 0 0 / 90%);
+}
+
 .match-promo-image {
   width: 100%;
   height: 100%;
@@ -315,6 +333,19 @@ body {
     height: clamp(180px, 48vw, 250px);
     min-height: 0;
     margin: 12px auto 16px;
+  }
+
+  .match-promo-art {
+    align-self: stretch;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    aspect-ratio: auto;
+  }
+
+  .match-promo-brand {
+    top: 8px;
+    left: 8px;
   }
 
   .match-promo-image {

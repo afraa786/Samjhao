@@ -1,0 +1,150 @@
+{
+  "planHash": "3fbda8689c313bcf4687dae3cb93df1498eda4f3bb45f9b1ed744ae32634cb83",
+  "phase": "standalone",
+  "recordedAtUtc": "2026-11-03T20:33:24.1977587Z",
+  "retryCount": 3,
+  "resetBaseline": false,
+  "complete": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 0,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "lint",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E samjhao@0.1.0 lint\r\n\u003E eslint\r\n\r\n",
+        "durationMs": 17995
+      },
+      {
+        "name": "typecheck",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "",
+        "durationMs": 8937
+      },
+      {
+        "name": "tests-pass",
+        "kind": "process",
+        "verificationMethod": "test-results",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E samjhao@0.1.0 test\r\n\u003E vitest run\r\n\r\n\r\n RUN  v4.1.5 C:/Users/Afraa/Downloads/samjhao\r\n\r\n\r\n Test Files  3 passed (3)\r\n      Tests  47 passed (47)\r\n   Start at  02:03:05\r\n   Duration  1.03s (transform 729ms, setup 0ms, import 1.07s, tests 153ms, environment 1ms)\r\n\r\n",
+        "durationMs": 3073,
+        "testResults": {
+          "testFramework": "vitest",
+          "runnerDetectedFrom": "package_json",
+          "testsTotal": 47,
+          "testsPassed": 47,
+          "testsFailed": 0,
+          "testsSkipped": 0,
+          "parseFailed": false
+        }
+      },
+      {
+        "name": "production-build",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E samjhao@0.1.0 build\r\n\u003E next build\r\n\r\n\u25B2 Next.js 16.4.4 (Turbopack)\r\n\u2713 Running next.config.ts took 63ms\r\n- Cache Components enabled\r\n- Partial Prefetching enabled\r\n\r\n  Creating an optimized production build ...\r\n\u2713 Compiled successfully in 1618ms\r\n  Running TypeScript ...\r\n  Finished TypeScript in 6.7s ...\r\n  Collecting page data using 6 workers ...\r\n  Generating static pages using 6 workers (0/5) ...\r\n  Generating static pages using 6 workers (1/5) \r\n  Generating static pages using 6 workers (2/5) \r\n  Generating static pages using 6 workers (3/5) \r\n\u2713 Generating static pages using 6 workers (5/5) in 2.9s\r\n  Finalizing page optimization ...\r\n\r\nRoute (app)\r\n\u250C \u25CB /\r\n\u251C \u25CB /_not-found\r\n\u251C \u0192 /api/explain\r\n\u2514 \u25CB /icon.svg\r\n\r\n\r\n\u25CB  (Static)   prerendered as static content\r\n\u0192  (Dynamic)  server-rendered on demand\r\n\r\n",
+        "durationMs": 17262
+      },
+      {
+        "name": "home-route-serves",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022\u003E\u003Chead\u003E\u003Cmeta charSet=\u0022utf-8\u0022/\u003E\u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1, viewport-fit=cover\u0022/\u003E\u003Clink rel=\u0022stylesheet\u0022 href=\u0022/_next/static/chunks/1elv2ktb2257n.css\u0022 data-precedence=\u0022next\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022script\u0022 fetchPriority=\u0022low\u0022 href=\u0022/_next/static/chunks/0kqziy-7_gy73.js\u0022/\u003E\u003Cscript src=\u0022/_next/static/chunks/1vm8h4gwdyqr8.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/1gj5u6mwx5p0u.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/turbopack-2u1d16houkiyo.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/0wj0noag-9_fs.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/35p51gk9-e_ts.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cmeta name=\u0022theme-color\u0022 content=\u0022#0a0f1d\u0022/\u003E\u003Cmeta name=\u0022color-scheme\u0022 content=\u0022dark\u0022/\u003E\u003Ctitle\u003ESamjhao \u00B7 cricket, explained at your level\u003C/title\u003E\u003Cmeta name=\u0022description\u0022 content=\u0022A private sidekick beside a live cricket watch-along that explains what is happening, and what the creator just said, at your level.\u0022/\u003E\u003Clink rel=\u0022icon\u0022 href=\u0022/icon.svg?icon.35o_bof7es191.svg\u0022 sizes=\u0022any\u0022 type=\u0022image/svg\u002Bxml\u0022/\u003E\u003Cscript src=\u0022/_next/static/chunks/0cz1d0mv5g_q7.js\u0022 noModule=\u0022\u0022\u003E\u003C/script\u003E\u003C/head\u003E\u003Cbody\u003E\u003Cdiv hidden=\u0022\u0022\u003E\u003C!--$--\u003E\u003C!--/$--\u003E\u003C/div\u003E\u003C!--\u0026--\u003E\u003Cmain class=\u0022mx-auto flex min-h-dvh max-w-[480px] flex-col px-5 pb-[max(1.25rem,env(safe-area-inset-bottom))] pt-[max(1.25rem,env(safe-area-inset-top))]\u0022\u003E\u003Cdiv class=\u0022flex items-center justify-between\u0022\u003E\u003Cp class=\u0022font-display text-[24px] font-extrabold tracking-tight\u0022\u003Esamjhao\u003Cspan class=\u0022text-accent\u0022\u003E.\u003C/span\u003E\u003C/p\u003E\u003Cdiv role=\u0022group\u0022 aria-label=\u0022Language\u0022 class=\u0022flex rounded-full border border-line bg-surface p-1\u0022\u003E\u003Cbutton type=\u0022button\u0022 aria-pressed=\u0022true\u0022 class=\u0022min-h-10 rounded-full px-3 text-[13px] font-semibold bg-accent text-accent-ink\u0022\u003EEnglish\u003C/button\u003E\u003Cbutton type=\u0022button\u0022 aria-pressed=\u0022false\u0022 class=\u0022min-h-10 rounded-full px-3 text-[13px] font-semibold text-muted\u0022\u003EHinglish\u003C/button\u003E\u003C/div\u003E\u003C/div\u003E\u003Ch1 class=\u0022anim-rise mt-8 font-display text-[34px] font-extrabold leading-[1.08] tracking-tight\u0022\u003ELost in the watch-along? Samjhao.\u003C/h1\u003E\u003Cp class=\u0022anim-rise mt-3 text-[16px] leading-relaxed text-muted\u0022\u003EThe match moves fast and the creator talks in jargon. Tap any underlined word, or anything the creator says, and get it explained privately. Nobody else sees what you ask.\u003C/p\u003E\u003Cfigure class=\u0022anim-rise-late mt-6 rounded-[22px] border border-line bg-surface p-4\u0022 aria-hidden=\u0022true\u0022\u003E\u003Cdiv class=\u0022flex items-start gap-3\u0022\u003E\u003Cspan aria-hidden=\u0022true\u0022 class=\u0022grid h-10 w-10 shrink-0 place-items-center rounded-full bg-gradient-to-br from-accent to-[#ff8a3d] font-display text-[14px] font-extrabold text-accent-ink\u0022\u003EBC\u003C/span\u003E\u003Cp class=\u0022min-w-0 flex-1 rounded-[18px] rounded-tl-md bg-surface-2 p-3 text-[15px] italic leading-snug\u0022\u003E\u201C\u003C!-- --\u003EThat\u0026#x27;s umpire\u0026#x27;s call and it HURTS. Clipping leg stump like a whisper!\u003C!-- --\u003E\u201D\u003C/p\u003E\u003C/div\u003E\u003Cdiv class=\u0022mt-3 flex items-start gap-3\u0022\u003E\u003Cspan class=\u0022grid h-10 w-10 shrink-0 place-items-center rounded-full border border-accent font-display text-[15px] font-extrabold text-accent\u0022\u003Es.\u003C/span\u003E\u003Cp class=\u0022min-w-0 flex-1 rounded-[18px] rounded-tl-md border border-accent/40 bg-accent-soft p-3 text-[15px] leading-snug\u0022\u003EUmpire\u0026#x27;s call: too close to tell, so the original decision stays.\u003C/p\u003E\u003C/div\u003E\u003C/figure\u003E\u003Cfieldset class=\u0022mt-7\u0022\u003E\u003Clegend class=\u0022text-[13px] font-bold uppercase tracking-[0.1em] text-muted\u0022\u003EHow much cricket do you know?\u003C/legend\u003E\u003Cdiv class=\u0022mt-3 space-y-2\u0022\u003E\u003Clabel class=\u0022flex min-h-14 cursor-pointer items-center gap-3 rounded-2xl border px-4 py-3 transition-colors has-[:focus-visible]:outline has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-accent border-accent bg-accent-soft\u0022\u003E\u003Cinput type=\u0022radio\u0022 class=\u0022sr-only\u0022 name=\u0022level\u0022 checked=\u0022\u0022 value=\u0022beginner\u0022/\u003E\u003Cspan aria-hidden=\u0022true\u0022 class=\u0022grid h-5 w-5 shrink-0 place-items-center rounded-full border-2 border-accent\u0022\u003E\u003Cspan class=\u0022h-2.5 w-2.5 rounded-full bg-accent\u0022\u003E\u003C/span\u003E\u003C/span\u003E\u003Cspan class=\u0022min-w-0\u0022\u003E\u003Cspan class=\u0022block text-[15px] font-bold\u0022\u003EBeginner\u003C/span\u003E\u003Cspan class=\u0022block text-[14px] text-muted\u0022\u003EI am new. Explain everything.\u003C/span\u003E\u003C/span\u003E\u003C/label\n\u2026[truncated]",
+        "durationMs": 26
+      }
+    ],
+    "executions": [
+      {
+        "source": "lint",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "lint"
+        ],
+        "cwd": "C:\\Users\\Afraa\\Downloads\\samjhao",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "typecheck",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npx.CMD",
+        "args": [
+          "tsc",
+          "--noEmit"
+        ],
+        "cwd": "C:\\Users\\Afraa\\Downloads\\samjhao",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "tests-pass",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "test"
+        ],
+        "cwd": "C:\\Users\\Afraa\\Downloads\\samjhao",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "production-build",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "build"
+        ],
+        "cwd": "C:\\Users\\Afraa\\Downloads\\samjhao",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "home-route-serves",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "start",
+          "--",
+          "--hostname",
+          "127.0.0.1",
+          "--port",
+          "3210"
+        ],
+        "cwd": "C:\\Users\\Afraa\\Downloads\\samjhao",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      }
+    ]
+  }
+}

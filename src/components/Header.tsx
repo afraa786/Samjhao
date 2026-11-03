@@ -66,10 +66,7 @@ function Segmented<T extends string>({
 export default function Header({ level, lang, copy, onLevel, onLang, learnedSlot }: Props) {
   return (
     <header className="px-4 pt-[max(0.75rem,env(safe-area-inset-top))]">
-      <div className="flex items-center gap-2">
-        <p className="mr-auto shrink-0 font-display text-[24px] min-[360px]:text-[26px] font-extrabold leading-none tracking-tight">
-          samjhao<span className="text-accent">.</span>
-        </p>
+      <div className="flex items-center justify-end gap-2">
         {learnedSlot}
         <Segmented
           label={copy.langGroup}
